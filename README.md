@@ -2,7 +2,7 @@
 # modMEMOs (Modified MEMOS)
 Modified version of the previously published tool MEMOS (Mazrooei et al. 2019). 
 
-This tool is designed to identify significant enrichment of mutations within transcription factor binding sites and flanking regions. modMEMOs can be run using wither ChIP-seq or ATAC-seq data.
+This tool is designed to identify significant enrichment of mutations within transcription factor binding sites and flanking regions. modMEMOs can be run using either ChIP-seq or ATAC-seq data.
 
 ## Running modMEMOS
 **Required data**
@@ -19,10 +19,10 @@ This tool is designed to identify significant enrichment of mutations within tra
 **modMEMOS_ATAC_Plus_ChIP.sh**: A bash script used to prepare bed and fasta files required to run modMEMOs and to execute modMEMOS-wrapper.sh.
 
 
-# CRE_MutEnrich
+# HoSRE (HotSpot in Regulatory Elements) 
 An algorithm to identify hotspots of mutations within regulatory elements against a background of global and local mutation rates.
 
-## Running CRE_MutEnrich 
+## Running HoSRE 
 
 **MkPromotersBed_hg19()**:Create promoters reference bed file.
 
